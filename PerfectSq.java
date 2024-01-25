@@ -1,6 +1,6 @@
 /* Perfect Square */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class PerfectSq
@@ -19,6 +19,7 @@ class PerfectSq
 		{
 			System.out.println("It is not perfect square");
 		}
+		s.close();
 	
 	}
 }

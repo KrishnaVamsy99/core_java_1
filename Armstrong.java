@@ -1,7 +1,7 @@
 /* Armstrong Number */
 /* 153 = 1**3 + 5**3 + 3**3 -> 153 */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class Armstrong
@@ -30,5 +30,6 @@ class Armstrong
 		System.out.println("Enter a number: ");
 		int n=s.nextInt();
 		Armstrong.myFun(n);
+		s.close();
 	}
 }

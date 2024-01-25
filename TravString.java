@@ -1,6 +1,6 @@
 /* Traversing through String */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class TravString
@@ -15,5 +15,6 @@ class TravString
 			char ch = s1.charAt(i);
 			System.out.println(ch);
 		}
+		s.close();
 	}
 }

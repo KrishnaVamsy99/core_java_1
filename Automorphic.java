@@ -2,7 +2,7 @@
 /* A number is called an automorphic number if and only if the square of the given number ends with the same number itself.
 For example, 25, 76 are automorphic numbers because their square is 625 and 5776, respectively and the last two digits of the square represent the number itself */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class Automorphic
@@ -36,5 +36,6 @@ class Automorphic
 		{
 			System.out.println(n+" is not Automorphic number");
 		}
+		s.close();
 	}
 }

@@ -1,7 +1,7 @@
 /* cloning */
 
-import java.lang.*;
-import java.util.*;
+//import java.lang.*;
+//import java.util.*;
 
 class Emp implements Cloneable
 {

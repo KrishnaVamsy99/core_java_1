@@ -7,7 +7,7 @@
 	3. divide the given number with 10
 */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.Scanner;
 
 class Palin
@@ -37,5 +37,6 @@ class Palin
 		System.out.print("Enter a number: ");
 		int n=s.nextInt();
 		Palin.myFun(n);
+		s.close();
 	}
 }

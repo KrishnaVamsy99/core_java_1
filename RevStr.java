@@ -1,7 +1,7 @@
 /* Reversing a String */
 /* vamsy -> ysmav */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.Scanner;
 
 class RevStr
@@ -27,5 +27,6 @@ class RevStr
 		System.out.print("Enter a String: ");
 		String s1 = s.nextLine();
 		RevStr.myFun(s1);
+		s.close();
 	}
 }

@@ -3,7 +3,7 @@
 /* sum of digits excludes first and last digit -> 4+3+2 ->9 */
 /* 9==9. So,it is a Xylem Number else it is a Pholem Number */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class XylemPholem
@@ -54,5 +54,6 @@ class XylemPholem
 		System.out.println("Enter a number: ");
 		int n=s.nextInt();
 		XylemPholem.myFun(n);
+		s.close();
 	}
 }

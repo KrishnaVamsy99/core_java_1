@@ -1,7 +1,7 @@
 /* Evil Number */
 /* First number should be converted into binary form and now check the number of one's in the binary form. if the count of one's are even then it is evil number */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class Evil
@@ -46,5 +46,6 @@ class Evil
 		System.out.println("Enter a number: ");
 		int n = s.nextInt(); //15
 		Evil.myFun(n);
+		s.close();
 	}
 }

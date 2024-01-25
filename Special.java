@@ -2,7 +2,7 @@
 /* Sum of factorial of digits is equal to the given number*/
 /* 145 = 1! + 4! + 5! -> 1+24+120 ->145. */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class Special
@@ -54,5 +54,6 @@ class Special
 		System.out.println("Enter a number: ");
 		int r = s.nextInt();
 		Special.myFun(r);	
+		s.close();
 	}
 }

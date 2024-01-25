@@ -3,14 +3,14 @@
 /* 2 - 0010 -> 0+1+0+0 = 1 -> 1 is an odd number. so, it is a odious number */
 /* 3 - 0011 -> 1+1+0+0 = 2 -> 2 is an even number. so, it is not odious number */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class Odious
 {
 	public static void myFun(int n)
 	{
-		int m=n,r=0,i=0,sum=0;
+		int m=n,r=0,sum=0;
 
 		while(m!=1)
 		{
@@ -36,5 +36,6 @@ class Odious
 		System.out.println("Ente a number: ");
 		int n=s.nextInt();
 		Odious.myFun(n);
+		s.close();
 	}
 }

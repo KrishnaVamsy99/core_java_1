@@ -51,6 +51,7 @@ class SelfDescriptive
         else{
             System.out.println(n+" is not SelfDescriptive Number.");
         }
+        s.close();
         
     }
     

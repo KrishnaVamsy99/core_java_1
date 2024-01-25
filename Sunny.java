@@ -1,7 +1,7 @@
 /* Sunny Number */
 /* 80 -> 80 + 1 =81. 81 is perfect square. so, 80 is a perfect square. */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class Sunny
@@ -28,5 +28,6 @@ class Sunny
 		System.out.println("Enter a number: ");
 		int n = s.nextInt();
 		Sunny.myFun(n);
+		s.close();
 	}
 }

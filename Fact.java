@@ -1,6 +1,6 @@
 /* Factorial */
 /* 5! = 5*4*3*2*1 = 120 */
-import java.lang.*;
+//import java.lang.*;
 import java.util.Scanner;
 
 class Fact
@@ -20,6 +20,6 @@ class Fact
 		System.out.print("please enter the number ");
 		int n = s.nextInt();
 		Fact.myFun(n);
-		
+		s.close();
 	}
 }

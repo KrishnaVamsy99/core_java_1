@@ -1,6 +1,6 @@
 /* Sum of Natural Numbers */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class SumOfNatural
@@ -18,5 +18,6 @@ class SumOfNatural
 		System.out.println("Enter a number: ");
 		int n = s.nextInt();
 		SumOfNatural.myFun(n);
+		s.close();
 	}
 }

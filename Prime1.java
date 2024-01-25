@@ -1,6 +1,6 @@
 /* Printing prime numbers from 1 to n */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class Prime1
@@ -34,5 +34,6 @@ class Prime1
 		System.out.println("Enter a number: ");
 		int n=s.nextInt();
 		Prime1.myFun(n);
+		s.close();
 	}
 }

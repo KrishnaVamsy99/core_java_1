@@ -2,7 +2,7 @@
 /* 2025 -> 20 | 25 -> 20+25=45 -> 45 *45 -> 2025*/
 /* given number 2025 == result 2025 */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class Tech
@@ -59,5 +59,6 @@ class Tech
 		{
 			System.out.println(n+" is not a Tech number");
 		}
+		s.close();
 	}
 }

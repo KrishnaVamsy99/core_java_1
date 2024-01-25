@@ -1,7 +1,7 @@
 /* Display odd numbers from 1 to 100 */
 
-import java.lang.*;
-import java.util.*;
+//import java.lang.*;
+//import java.util.*;
 
 class DispOdd
 {

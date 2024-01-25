@@ -1,7 +1,7 @@
 /* House number */
 /* Hs = (s+1) + Ek=1 to s k*k, where s>=0 */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class House
@@ -21,5 +21,6 @@ class House
 		System.out.println("Enter a number: ");
 		int n = s.nextInt();
 		House.myFun(n);
+		s.close();
 	}
 }

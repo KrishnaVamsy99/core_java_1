@@ -1,6 +1,6 @@
 /* Largest of three numbers */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class LargestOfThree
@@ -29,6 +29,7 @@ class LargestOfThree
 		int b = s.nextInt();
 		int c = s.nextInt();
 		LargestOfThree.myFun(a,b,c);
+		s.close();
 		
 	}
 }

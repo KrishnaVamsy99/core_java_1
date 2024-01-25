@@ -2,7 +2,7 @@
 /* 123 -> There are no repeated digits in this number */
 /* 2523 -> 2 is repeated twice. So, it is not unique number */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class Unique
@@ -45,5 +45,6 @@ class Unique
 		{
 			System.out.println(n+" is not Unique number");
 		}
+		s.close();
 	}
 }

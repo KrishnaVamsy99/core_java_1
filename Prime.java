@@ -2,7 +2,7 @@
 /* A number is divisible by itself and 1. it is called as a prime number */
 /* 2,3,5,7,11,13...*/
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class Prime
@@ -33,5 +33,6 @@ class Prime
 		System.out.println("Enter a number: ");
 		int n=s.nextInt();
 		Prime.myFun(n);
+		s.close();
 	}
 }

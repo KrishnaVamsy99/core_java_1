@@ -2,7 +2,7 @@
 /* 6732 - 6 + 2 = 8, 3+7 = 10 -> not lead */
 /* 6369 - 6+6 = 12, 3+9=12 */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class Lead
@@ -39,5 +39,6 @@ class Lead
 		System.out.println("Enter a number: ");
 		int n=s.nextInt();
 		Lead.myFun(n);
+		s.close();
 	}
 }

@@ -11,7 +11,7 @@ rem = 281 % 11 =0
 
 */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class Isbn
@@ -43,5 +43,6 @@ class Isbn
 		System.out.println("Enter a number: ");
 		long n = s.nextLong();
 		Isbn.myFun(n);
+		s.close();
 	}
 }

@@ -1,6 +1,6 @@
 /* Cloning using new instance method */
 
-import java.lang.*;
+//import java.lang.*;
 
 class College
 {
@@ -30,8 +30,8 @@ class Clone1
 {
 	public static void main(String[] args) throws Exception
 	{
-		Class c1 = Class.forName("College");
-		College co1 = (College)c1.newInstance();
-		co1.disp();
+		//Class c1 = Class.forName("College");
+		//College co1 = (College)c1.newInstance();
+		//co1.disp();
 	}
 }

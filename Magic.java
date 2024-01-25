@@ -1,7 +1,7 @@
 /* Magic Number */
 /* 325 -> 3+2+5=10 -> 1+0=1. it is magic number */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class Magic
@@ -36,5 +36,6 @@ class Magic
 		System.out.println("Enter a number: ");
 		int n = s.nextInt();
 		Magic.myFun(n);
+		s.close();
 	}
 }

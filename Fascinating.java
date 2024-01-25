@@ -3,7 +3,7 @@
 /* "327" + "654" + "981" -> "327654981" */
 /* Now check if it has all numbers from 1 to 9 */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class Fascinating
@@ -59,5 +59,6 @@ class Fascinating
 		{
 			System.out.println(n+" is not Fascinatig number");
 		}
+		s.close();
 	}
 }

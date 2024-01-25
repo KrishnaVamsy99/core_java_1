@@ -1,7 +1,7 @@
 /* Strontio Number */
 /* 1221 * 2 = 2442 -> hundreds and tens place are same then it is Strontio Number */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class Strontio
@@ -42,5 +42,6 @@ class Strontio
 		System.out.println("Enter 4 digit number: ");
 		int n = s.nextInt();
 		Strontio.myFun(n);
+		s.close();
 	}
 }

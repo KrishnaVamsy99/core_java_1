@@ -2,7 +2,7 @@
 /* India is my country */
 /* i - 3, n - 2, y - 2 */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.Scanner;
 
 class StrDupCount
@@ -42,5 +42,6 @@ class StrDupCount
 		System.out.print("Enter a String: ");
 		String s1 = s.nextLine();
 		StrDupCount.myFun(s1);	//"hello world"
+		s.close();
 	}
 }

@@ -1,7 +1,7 @@
 /* Reversing Number */
 /* 456 -> 654 */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.Scanner;
 
 class RevNum
@@ -24,5 +24,6 @@ class RevNum
 		System.out.print("Enter a number: ");
 		int r = s.nextInt();
 		RevNum.myFun(r);
+		s.close();
 	}
 }

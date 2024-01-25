@@ -1,7 +1,7 @@
 /* Neon Number */
 /* 9 -> 9 * 9 = 81 -> 8+1 = 9 */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class Neon
@@ -32,5 +32,6 @@ class Neon
 		System.out.println("Enter a number: ");
 		int n = s.nextInt();
 		Neon.myFun(n);
+		s.close();
 	}
 }

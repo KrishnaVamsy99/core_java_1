@@ -2,7 +2,7 @@
 /* 132 = 1+3+2 = 6 */
 /* 132 = 1*3*2 = 6 */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class Spy
@@ -33,5 +33,6 @@ class Spy
 		System.out.println("Enter a number: ");
 		int n=s.nextInt();
 		Spy.myFun(n);
+		s.close();
 	}
 }

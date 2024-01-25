@@ -1,6 +1,6 @@
 /* Catalan number */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class Catalan
@@ -35,5 +35,6 @@ class Catalan
 		int n=s.nextInt();
 		int m = Catalan.myFun(n);
 		System.out.println(m);
+		s.close();
 	}
 }

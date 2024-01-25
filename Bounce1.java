@@ -1,7 +1,7 @@
 /* Bounce Number */
 /* 1234 -> from left to right the number are increasing */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class Bounce1
@@ -46,6 +46,7 @@ class Bounce1
 		{
 			System.out.println(n+" is not Decreasing Bouncing Number");
 		}
+		s.close();
 		
 	}
 }

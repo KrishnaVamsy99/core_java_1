@@ -1,7 +1,7 @@
 /* Power */
 /* 2**3 = 8 */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class Power
@@ -30,5 +30,6 @@ class Power
 			System.out.println("Please enter correct values");
 			e.printStackTrace();
 		}
+		s.close();
 	}
 }

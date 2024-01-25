@@ -1,8 +1,8 @@
 /* Printing ASCII Value of java */
 /* a=97, b=98 */
 
-import java.lang.*;
-import java.util.Scanner;
+//import java.lang.*;
+//import java.util.Scanner;
 
 class AsciiValue
 {

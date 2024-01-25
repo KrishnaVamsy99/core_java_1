@@ -2,7 +2,7 @@
 /* If sum of the factors of the given number is equal to the given number, then it is a perfect number */
 /* 6 -> 1+2+3 = 6 */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class Perfect
@@ -35,5 +35,6 @@ class Perfect
 		System.out.println("Enter a number: ");
 		int n = s.nextInt();
 		Perfect.myFun(n);
+		s.close();
 	}
 }

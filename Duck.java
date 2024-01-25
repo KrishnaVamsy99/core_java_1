@@ -1,7 +1,7 @@
 /* Duck Number */
 /* If a number contains zero in it but zero should not be at the beginning */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 class Duck
@@ -33,5 +33,6 @@ class Duck
 		{
 			System.out.println(n+" is not duck number");
 		}
+		s.close();
 	}
 }
