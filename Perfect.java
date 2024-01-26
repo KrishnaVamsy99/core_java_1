@@ -7,7 +7,7 @@ import java.util.*;
 
 class Perfect
 {
-	public static void myFun(int n) //n=6
+	public static boolean myFun(int n) //n=6
 	{
 		int m=n, sum=0; //m=6
 
@@ -21,11 +21,11 @@ class Perfect
 		}
 		if(sum == n)
 		{
-			System.out.println(n+" is a perfect number");
+			return true;
 		}
 		else
 		{
-			System.out.println(n+" is not a perfect number");
+			return false;
 		}
 	}
 
@@ -34,7 +34,13 @@ class Perfect
 		Scanner s = new Scanner(System.in);	
 		System.out.println("Enter a number: ");
 		int n = s.nextInt();
-		Perfect.myFun(n);
+		if(Perfect.myFun(n))
+		{
+			System.out.println(n+" is perfect number");
+		}
+		else{
+			System.out.println(n+" is not perfect number");
+		}
 		s.close();
 	}
 }
