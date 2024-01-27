@@ -53,3 +53,13 @@
 	4.g.1 Now, What all are the statement are presents will be executed.
 	4.h.1 Now, after execution of showResults() method, showResults() method stack frame will be destroyed in Java Stacks.
 5. Now, after executing all the statements in the main method, main() method stack frame will be destroyed.
+
+
+How to send your code in git hub;
+
+1. check the status -> git status
+2. if you find untracked files, then place it in staging are by using this command -> git add filename or you can place all untracked files at once by using
+git add . -> . represents all untracked files
+3. Then commit the changes by using the following command -> git commit -m "v1.1" -> "-m" indicates message or comment for the current commit.
+4. Now, push the file into git hub repo by using the following command -> git push -u origin main.
+Note: before pushing the commits you should add origin in your computer. -> git add remote origin link_here.
