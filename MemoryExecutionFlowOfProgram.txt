@@ -1,0 +1,55 @@
+1. Compilation		-> javac StudentExample.java
+2. run the programm 	-> java StudentExample
+3. JVM will tell to class loader to load the Example in method area.
+	3.a if static variables are available, then memory will be allocated to static varibles in method area.
+	3.b if no static variable are available, then no memory will be allocated
+4. Main method will be called.
+	4.a main method is a block. so, a java stack frame will be created in Java Stacks for main method. 
+	4.b if local variables are present in the program, then memory will be allocated in that respective stack frame with default values
+	4.c default values for different data types are:
+		4.c.1 int 	-> 0
+		4.c.2 float	-> 0.0f
+		4.c.3 double 	-> 0.0
+		4.c.4 String 	-> null
+		4.c.5 boolean 	-> false
+	4.d for example, there is a statement in our main method like below
+		Student s1 = new Student(101, "Krishna", 80, 75, 95, 100, 60);
+	4.e Now, Class Loader will check whether the Student class is available in Method area. if it is not present then Class Loader will
+		load Student clas in the method area.
+		4.e.1 Now, JVM will check for any static variables available in Student class. if there any static variable then memory will be 
+		allocated to static variable in static area
+	4.f Now, for the Instance variables default values will be assigned.
+	4.g Now, there is a keyword called "new". it will create memory for the instance variables of Student class in the heap memory.
+	4.h Now, In Student class, for the instance variables default vaules will assigned.
+	4.i Now, Student class constructor will be called. (In the program, we declared parameterized constructor. so, we passed parameters)
+	4.j Now, Constructor is a block, a java stack frame will be created in Java Stacks for Student class Constructor.
+	4.k Now, we will assign value of local variables will be allocated to present object of instance variables.
+	4.l Now, Cursor will come back to constructor calling statement in main method i.e.,"new Student(101, "Krishna", 80, 75, 95, 100, 60);" and Student
+	 class java stack frame will be destroyed.
+	4.m Now, Student constructor will return the present object address.
+	4.n Now, Student s1 = new Student(101,"krishna", 80,75, 95, 100,60); Now, we are storing the address of the present object in variable s1. s1 mustbe
+	 	student type because it is returning student's present object address. so, we initialized with Student class data type.
+	4.o Now, we can invoke any methods in Student class by using Student class reference variable.
+	4.p Now, we have showResults() method in Student class. now we called showResults method by using s1 reference variable.(s1.showResults())
+	4.q Now, A stack frame will be created for a showResults() method in Java Stacks.
+	4.r Now, It will check any local variables are present. if yes, then it will assign default values to those local variables. if not, it will proceed
+		with execution of statements
+	4.s Now, inside of our showResults() method, there are no local variables. Now, it will proceed with execution of statements one by one
+	4.t Now, if there any method calling statements like findTotalMarks(); then, a stack frame will be created for findTotalMarks in Java Stacks memory.
+	4.u Now, again, it will execute the statements in the findTotalMarks method. after executing of findTotalMarks() method,stack frame will bedestroyed
+	4.v Now, total = findTotalMarks(); now the value returned from the findTotalMarks() method will be assigned to total instance variable
+	4.w Now, findAvg(); a java stack frame will be created in Java Stacks.
+	4.x Now, there is a statement in findAvg method ie., float avg1 = findTotalMarks()/5;
+	4.y Now, findTotalMarks(); Now again, java stack frame will be created for the findTotalMarks() method in Java Stacks. Now, it will return the total
+		of the all 5 subjects(c,cpp,java,python,oracle). After execution of method, cursor will return to findTotalMarks()/5. After that,
+		findTotalMarks() stack frame will be destroyed.
+	4.z Now, Now, avg1 will store respective value when total marks divided by 5. after that, we are returning the avg1 value.
+	4.a.1 Now, findAvg() stack frame in Java Stacks will be destroyed.
+	4.b.1 Now, grade = findGrade(); Now, for the findGrade() method, java stack frame will be created in java Stacks.
+	4.c.1 Now, float fa = avg; here we are assigning instance varaible avg to local variable fa of type float.
+	4.d.1 Now, it will return String value.(please refer the program to understand it properly)
+	4.e.1 Now, Now the grade value will be assigned to the grade variable.
+	4.f.1 Now, in the program we checked the grade value if it is A+/A/B/C/D/E/F and we are assigning pass/fail to the result instance variable.
+	4.g.1 Now, What all are the statement are presents will be executed.
+	4.h.1 Now, after execution of showResults() method, showResults() method stack frame will be destroyed in Java Stacks.
+5. Now, after executing all the statements in the main method, main() method stack frame will be destroyed.
